@@ -29,7 +29,7 @@ module.exports.run = async function({ api, event }) {
 ┃🏫 𝗘𝗗𝗨𝗖𝗔𝗧𝗜𝗢𝗡 : তুই অশিক্ষিত তোরে কইয়া লাভ নাই আবাল😾 
 ┃🏡 𝗔𝗗𝗗𝗥𝗘𝗦𝗦 : সিলেট , বাংলাদেশ 
 ┣━━━━━━━━━━━━━━━━━━┫
-┃𝗧𝗜𝗞𝗧𝗢𝗞 : @where.is.she15
+┃𝗧𝗜𝗞𝗧𝗢𝗞 : @এহ শর লুচ্চা দিমু না
 ┃📢 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 : আছে 🥴🤪
 ┃🌐 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 : বায়ো-তে আছে
 ┣━━━━━━━━━━━━━━━━━━┫
@@ -38,7 +38,7 @@ module.exports.run = async function({ api, event }) {
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
  }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
 
- return request("https://i.imgur.com/FJI61jS.jpeg")
+ return request("https://i.ibb.co/ymXcQwqp/image.jpg")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
