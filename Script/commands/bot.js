@@ -123,7 +123,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️রাগ করে না সোনা পাখি এতো রাগ শরীরের জন্য ভালো না🥰", threadID);
    };
 
-   if ((event.body.toLowerCase() == "hmm  হুম") || (event.body.toLowerCase() == "Hum")) {
+   if ((event.body.toLowerCase() == "হুম") || (event.body.toLowerCase() == "Hmm")) {
      return api.sendMessage("️হুম চোদাইস না মাথা এমনিতেই গরম আছে🤬⛏️😷", threadID);
    };
 
