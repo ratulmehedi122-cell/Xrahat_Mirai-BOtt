@@ -91,7 +91,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase() == " @ মায়াবতি ") || (event.body.toLowerCase() == "@ মায়াবতি")) {
+   if ((event.body.toLowerCase() == " @মায়াবতি ") || (event.body.toLowerCase() == "@ মায়াবতি")) {
      return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস হাসান এর বউ এর আইড়ি😠🥰⛏️", threadID);
    };
 
@@ -123,7 +123,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️রাগ করে না সোনা পাখি এতো রাগ শরীরের জন্য ভালো না🥰", threadID);
    };
 
-   if ((event.body.toLowerCase() == "হুম") || (event.body.toLowerCase() == "Hum")) {
+   if ((event.body.toLowerCase() == "hmm  হুম") || (event.body.toLowerCase() == "Hum")) {
      return api.sendMessage("️হুম চোদাইস না মাথা এমনিতেই গরম আছে🤬⛏️😷", threadID);
    };
 
